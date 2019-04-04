@@ -2,7 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" 
+			content="width=device-width, 
+					initial-scale=1.0, 
+					maximum-scale=1.0, 
+					user-scalable=no">
 
 		<title>Sicherheitsl&uuml;cken durch Mikrocontroller</title>
 
@@ -36,52 +40,8 @@
 
 					<section data-markdown>
 						<textarea data-template>
-							*	Keylogger					<!-- .element: class="fragment" -->
 							*	RFID-Cloner					<!-- .element: class="fragment" -->
 							*	Evil Twin					<!-- .element: class="fragment" -->
-						</textarea>
-					</section>
-				</section>
-
-				<!--Keylogger-->
-				<section>
-					<h3>Keylogger</h3>
-
-					<section data-markdown>
-						<textarea data-template>
-							## Was ist das?
-							*	klein						<!-- .element: class="fragment" -->
-							*	versteckt					<!-- .element: class="fragment" -->
-							*	Tastendr&uuml;cke			<!-- .element: class="fragment" -->
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							## Wie geht das?
-							*	HID							<!-- .element: class="fragment" -->
-							*	in Verbindung einbringen	<!-- .element: class="fragment" -->
-							*	Tastencodes mitschreiben	<!-- .element: class="fragment" -->
-							*	Tastencodes weitergeben		<!-- .element: class="fragment" -->
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							## Was kann ich damit machen?
-							*	Benutzernamen				<!-- .element: class="fragment" -->
-							*	Passw&ouml;rter				<!-- .element: class="fragment" -->
-							*	Firmendaten					<!-- .element: class="fragment" -->
-							*	alles geschriebene			<!-- .element: class="fragment" -->
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							## Wie haben wir das gemacht?
-							*	Arduino						<!-- .element: class="fragment" -->
-							*	SD-Karte					<!-- .element: class="fragment" -->
-							*	USB-Verl&auml;ngerung		<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 				</section>
@@ -93,36 +53,39 @@
 					<section data-markdown>
 						<textarea data-template>
 							## Was ist das?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	lesen						<!-- .element: class="fragment" -->
+							*	schreiben					<!-- .element: class="fragment" -->
+							*	UID							<!-- .element: class="fragment" -->
+							*	alle Daten					<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 	
 					<section data-markdown>
 						<textarea data-template>
 							## Wie geht das?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	Karte einlesen				<!-- .element: class="fragment" -->
+							*	Daten zwischenspeichern		<!-- .element: class="fragment" -->
+							*	neuen Tag beschreiben		<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 
 					<section data-markdown>
 						<textarea data-template>
 							## Was kann ich damit machen?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	Hotels						<!-- .element: class="fragment" -->
+							*	Firmen						<!-- .element: class="fragment" -->
+							*	Zugangskontrolle			<!-- .element: class="fragment" -->
+							*	Schl&uuml;sselersatz		<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 
 					<section data-markdown>
 						<textarea data-template>
 							## Wie haben wir das gemacht?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	Arduino						<!-- .element: class="fragment" -->
+							*	RFID-Lese-/Schreibger&auml;t<!-- .element: class="fragment" -->
+							*	leere Tags					<!-- .element: class="fragment" -->
+							*	Liebe						<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 				</section>
@@ -134,36 +97,36 @@
 					<section data-markdown>
 						<textarea data-template>
 							## Was ist das?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	Ziel-WLAN					<!-- .element: class="fragment" -->
+							*	Klon-WLAN					<!-- .element: class="fragment" -->
+							*	B&ouml;&ouml;&ouml;&ouml;se	<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 
 					<section data-markdown>
 						<textarea data-template>
 							## Wie geht das?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	WLAN f&auml;higes Ger&auml;t<!-- .element: class="fragment" -->
+							*	versteckter Platz			<!-- .element: class="fragment" -->
+							*	Geschick					<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 
 					<section data-markdown>
 						<textarea data-template>
 							## Was kann ich damit machen?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	Zugangsdaten				<!-- .element: class="fragment" -->
+							*	MITM						<!-- .element: class="fragment" -->
+							*	Daten sammeln				<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 
 					<section data-markdown>
 						<textarea data-template>
 							## Wie haben wir das gemacht?
-							*	eins						<!-- .element: class="fragment" -->
-							*	zwei						<!-- .element: class="fragment" -->
-							*	drei						<!-- .element: class="fragment" -->
+							*	RaspberryPi					<!-- .element: class="fragment" -->
+							*	WIFI-Hotspot				<!-- .element: class="fragment" -->
+							*	Logging Software			<!-- .element: class="fragment" -->
 						</textarea>
 					</section>
 				</section>
@@ -196,7 +159,8 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, 
+						callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
